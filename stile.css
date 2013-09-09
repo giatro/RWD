@@ -14,6 +14,7 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
+  background: #2e2633 url(bg.jpg) 50% 50% fixed;
   color: #ffffff;
 }
 h1,
