@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+/**
+ * Variables
+ */
+/**
+ * Mixins
+ */
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background: #000000 url(bg.jpg) 50% 0 no-repeat;
+  color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: 300;
+  color: #2e2633;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+strong {
+  font-weight: 600;
+}
+a:link,
+a:visited {
+  color: #99173c;
+}
+table {
+  border: none;
+}
+table * {
+  vertical-align: top;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+table caption {
+  font-weight: 300;
+  font-size: 2em;
+  color: #2e2633;
+  padding: 0.2em 0;
+}
+table th {
+  color: #2e2633;
+  font-weight: 400;
+}
+table th {
+  padding: 0.2em 0.2em 0.2em 0;
+}
+table td {
+  padding: 0.2em 0 0.2em 0.2em;
+}
+#wrapper {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  margin: 3% auto;
+  width: 90%;
+  padding: 1.5%;
+  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
+  color: #555152;
+}
+aside {
+  float: left;
+  width: 34%;
+  margin-bottom: 1%;
+}
+aside img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+main {
+  float: right;
+  width: 65%;
+  margin-bottom: 1%;
+}
+footer {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 90%;
+  font-weight: 300;
+  clear: both;
+  padding: 0.5em;
+}
+footer p {
+  margin: 0 0.5em;
+}
+.corpicelesti {
+  width: 100%;
+}
+.corpicelesti .corpo {
+  margin-left: 1.538462%;
+  margin-top: 1.538462%;
+  width: 32.307692%;
+  float: left;
+}
+.corpicelesti .corpo:nth-child(3n+1) {
+  clear: left;
+  margin-left: 0;
+}
+.corpicelesti .corpo img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin-bottom: 4.76190623583%;
+}
