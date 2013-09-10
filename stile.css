@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  background: #000000 url(bg.jpg) 50% 50% fixed;
+  background: #000000 url(bg.jpg) 50% 0 no-repeat;
   color: #ffffff;
 }
 h1,
