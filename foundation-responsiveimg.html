@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Esempio foundation</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/4.3.2/css/foundation.min.css" />
+		<link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
+		<style>
+			img { width: 100% }
+		</style>
+	</head>
+	<body>
+		<!--img src="bo_pre.jpg" data-interchange="[bo_df.jpg, (only screen and (min-width: 1px))], [bo_sm.jpg, (only screen and (min-width: 768px))], [bo_md.jpg, (only screen and (min-width: 1280px))]"-->
+		<img src="bo_pre.jpg" data-interchange="[bo_df.jpg, (default)], [bo_sm.jpg, (small)], [bo_md.jpg, (medium)]">
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/4.3.1/js/foundation.min.js"></script>
+		<script>$(document).foundation();</script>
+	</body>
+</html>
